@@ -14,7 +14,7 @@ import java.util.List;
 @Service("EmployeeService")
 public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
-    Oracle oracle;
+    private Oracle oracle;
 
     @Override
     public List<Employee> selectAllEmployees() {
