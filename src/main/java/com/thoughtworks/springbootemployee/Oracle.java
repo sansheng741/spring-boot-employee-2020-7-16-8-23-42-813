@@ -10,4 +10,8 @@ import java.util.List;
  */
 public class Oracle {
     List<Employee> employeeList = new ArrayList<>();
+
+    public List<Employee> getEmployeeList() {
+        return employeeList;
+    }
 }
